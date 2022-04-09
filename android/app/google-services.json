@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472804413333",
+    "project_id": "pixel-5ad1d",
+    "storage_bucket": "pixel-5ad1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472804413333:android:f2387c16e7833260c1709c",
+        "android_client_info": {
+          "package_name": "com.pix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472804413333-1sfejb0pi6b93v27uj1ubm23cl8e4cqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs34zHhpBvMYGStYFq27xamn_RvbgJFUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472804413333-1sfejb0pi6b93v27uj1ubm23cl8e4cqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

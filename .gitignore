@@ -29,6 +29,25 @@ build/
 local.properties
 *.iml
 
+# Gradle
+/build/
+/packages/react-native-gradle-plugin/build/
+/packages/rn-tester/build
+/packages/rn-tester/android/app/.cxx/
+/packages/rn-tester/android/app/build/
+/packages/rn-tester/android/app/gradle/
+/packages/rn-tester/android/app/gradlew
+/packages/rn-tester/android/app/gradlew.bat
+/ReactAndroid/build/
+/ReactAndroid/.cxx/
+/ReactAndroid/gradle/
+/ReactAndroid/gradlew
+/ReactAndroid/gradlew.bat
+/ReactAndroid/hermes-engine/build/
+/ReactAndroid/hermes-engine/.cxx/
+/template/android/app/build/
+/template/android/build/
+
 # node.js
 #
 node_modules/
@@ -59,5 +78,8 @@ buck-out/
 /ios/Pods/
 
 # Api keys
-src/config.ts
-GoogleService-Info.plist
+# src/config.ts
+# GoogleService-Info.plist
+
+# Android memory profiler files
+*.hprof
