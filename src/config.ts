@@ -11,10 +11,6 @@ export const firebaseConfig: any = {
   projectId: 'pixel-5ad1d'
 };
 
-const config = {
-  name: 'SECONDARY_APP'
-};
-
 if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig, config);
+  firebase.initializeApp(firebaseConfig);
 }
